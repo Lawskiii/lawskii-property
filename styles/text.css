@@ -40,7 +40,7 @@
 
 .text-message-1{
   animation: 
-    typing 2s steps(46),
+    typing 2s steps(46) ,
     cursor .4s step-end infinite alternate
   ;
 }
@@ -107,6 +107,81 @@
 .text-message-11{
   animation: 
     typing 4s  steps(75),
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+/*reverse*/
+.text-message-1-rev{
+  animation: 
+    typing 2s steps(46) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+  
+}
+
+.text-message-2-rev{
+  animation: 
+    typing 40s .5s steps(24) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-3-rev{
+  animation: 
+    typing 40s .5s  steps(56) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-4-rev{
+  animation: 
+    typing 40s .5s   steps(79) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-5-rev{
+  animation: 
+    typing 40s .5s steps(19) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-6-rev{
+  animation: 
+    typing 40s .5s steps(16) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-7-rev{
+  animation: 
+    typing 40s .5s steps(18) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-8-rev{
+  animation: 
+    typing 40s .5s steps(14) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-9-rev{
+  animation: 
+    typing 35s .5s steps(24) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-10-rev{
+  animation: 
+    typing 35s .5s steps(96) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-11-rev{
+  animation: 
+    typing 35s .5s steps(75) reverse forwards,
     cursor .4s step-end infinite alternate
   ;
 }
