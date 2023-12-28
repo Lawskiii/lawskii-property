@@ -107,7 +107,7 @@ function generateText(text1){
 
   setTimeout(function() {
     removeMessage()
-},35000);
+},40000);
 }
 
 let anim = [];
@@ -120,10 +120,12 @@ function addMessage(i, text1){
 }
 
 function removeMessage(){
-  for (let i = 1; i <= 11; i++) {
-  
-    anim.push(document.body.querySelector(`.text-message-${i}`));    
-    anim[i].style.animationDirection = 'reverse';
-
-  }  
+  document.body.querySelector('.text').classList.add('opacity');
+  setTimeout(changeWeb, 4000);
 }
+
+function changeWeb(){
+  location.replace('https://lawskiii.github.io/lawskii-property/memories.html')
+}
+
+
